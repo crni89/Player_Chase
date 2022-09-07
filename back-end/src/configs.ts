@@ -70,7 +70,7 @@ const DevConfig: IConfig = {
         },
         player: {
             algorithm: "RS256",
-            issuer: "PIiVT",
+            issuer: "Player Chase",
             tokens: {
                 auth: {
                     duration: 60 * 60 * 24,
