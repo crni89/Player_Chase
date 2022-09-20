@@ -1,0 +1,98 @@
+.loginContainer{
+    margin-left: 13%;
+}
+
+.login{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 900px;
+    width: 1200px;
+    margin-top: 20px;
+    display: inline-flex;
+    border-radius: 10px;
+    box-shadow: 15px 15px 30px 10px gray;
+    background-color: floralwhite;
+}
+
+.loginLeft{
+    width: 571px;
+    height: 98%;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    border-radius: 10px 0 0 10px;
+}
+
+.loginLeft img{
+    width: 600px;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.5;
+    border-radius: 10px 0 0 10px;
+}
+.loginLeftText{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.7rem;
+    letter-spacing: .2em;
+    color: white;
+
+}
+
+.loginLeftTextunder{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: .2em;
+    color: white;
+}
+
+.loginLeftButton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.loginRight{
+    width: 580px;
+    height: 98%;
+    border-radius: 0 10px 10px 0;
+    background-color: floralwhite;
+}
+
+.loginRightForm{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.loginRightInputs{
+    border-radius: 10px;
+}
+
+.cascading-right{
+  margin-right: -50px;
+}
+
+@media (max-width: 991.98px) {
+  .cascading-right {
+    margin-right: 0;
+  }
+}

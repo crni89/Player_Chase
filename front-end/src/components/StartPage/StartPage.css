@@ -1,0 +1,47 @@
+.containers{
+    position: relative;
+    left: 25%;
+    margin-top:50px;
+    width:50em;
+    height:50em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 20px 10px 15px 5px gray;
+
+}
+.containers::before{
+    content: "";
+    background-image: url("../../resources/img/kos.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+
+.cards{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.card-header{
+    background: transparent;
+    border: none;
+}
+
+h4{
+    color: white;
+    font-size: 3rem;
+    line-height: 0.9;
+    text-align: center;
+}
