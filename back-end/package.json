@@ -36,7 +36,7 @@
     "generate-password": "^1.7.0",
     "image-size": "^1.0.2",
     "jsonwebtoken": "^8.5.1",
-    "magic-bytes.js": "^1.0.12",
+    "magic-bytes.js": "^1.0.14",
     "morgan": "^1.10.0",
     "mysql2": "^2.3.3",
     "nodemailer": "^6.7.8",
