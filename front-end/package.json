@@ -19,7 +19,7 @@
     "bootstrap": "^5.2.1",
     "framer-motion": "^7.3.2",
     "mdb-ui-kit": "^5.0.0",
-    "node-sass": "^7.0.3",
+    "node-sass": "^8.0.0",
     "path-browserify": "^1.0.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
